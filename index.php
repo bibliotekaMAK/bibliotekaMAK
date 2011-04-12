@@ -40,7 +40,9 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
  die ("Nie mo¿na po³±czyæ siê z MySQL");
  mysql_select_db ("$dbname") or 
  die ("Nie mo¿na po³±czyæ siê z baz± biblioteki");
- ?>
+ 
+ 
+  ?>
       <h2>Wyszukaj ksi±¿ki</h2>
       <p>
       <form method="post" action="index.php">
@@ -168,10 +170,16 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
       </table>
       </p>
     </div>
-    <div id="columnB">
-      <h2>Ilo¶æ ksi±¿ek w bazie</h2>
-      <p>
-      <h2>12 szt.</h2>
+ <?php   echo '<div id="columnB">';
+ print "<h2>Ilo¶æ ksi±¿ek w bazie</h2>";
+ print "<p>";
+ while ($rekord = mysql_fetch_array ($iloscksiazek)) {
+ $id_ksiazka = $rekord[0];
+ print "<h2>$id_ksiazka szt.</h2> \n";
+ }
+ 
+ mysql_close ($link);
+?>
       </p>
 		<p><br />
 <h2>Kontakt</h2>
