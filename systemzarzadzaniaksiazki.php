@@ -25,6 +25,9 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
   <noscript>
     <p class="noscriptText"><b>Koniecznie w³±cz obs³ugê JavaScript.</b><a href="http://www.kropleinternetu,biz/obslugajava.php" title="W³±czenie ods³ugi JavaScript w przegl±darkach internetowych." target="_blank" style="text-decoration:blink;"><b>Kliknij i sprawd¼ jak to zrobiæ&nbsp;&nbsp;&raquo;</b></a></p>
   </noscript>
+  <?php	
+if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:center;\"><h2>Nie masz dostêpu do tej czê¶ci witryny.</h2> <a href='systemzarzadzania.php'>Zaloguj siê</a><p>lub<br/><a href='index.php'>Przejd¼ do wyszukiwarki ksi±¿ek</a></p></div>;"; exit();}
+?>
   <div id="header"><b>System zarz±dzania bdMAK</b>- Biblioteka Miejska nr.3 Czêstochowa
     <h1>Zalogowany</h1>
     <h2><a href="systemzarzadzania.php?wyloguj=tak">wyloguj siê</a></h2>
