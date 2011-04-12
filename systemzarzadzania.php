@@ -50,3 +50,4 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
   </div>
 </body>
 </html>
+<?php mysql_close(); ?>
