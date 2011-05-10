@@ -34,11 +34,12 @@ if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:cen
   </div>
   <div id="menu">
     <ul>
-      <li class="first"><a href="systemzarzadzaniaksiazki.php">Ksi±¿ki</a></li>
-      <li><a href="systemzarzadzaniaczytelnicy.php">Czytelnicy</a></li>
+      <li><a href="systemzarzadzaniaksiazki.php">Ksi±¿ki</a></li>
+      <li class="first"><a href="systemzarzadzaniaczytelnicy.php">Czytelnicy</a></li>
       <li><a href="systemzarzadzaniawypozyczenia.php">Wypo¿yczenia</a></li>
       <li><a href="systemzarzadzaniaraporty.php">Raporty</a></li>
       <li><a href="index.php">WWW</a></li>
+		<li><a href="help.php" target="_blank" onclick="window.open('help.php', 'Pomoc', 'scrollbars,height=550,width=810');return false;"><img src="images/help.png" alt="Pomoc" title="Pomoc" style="position:relative; top:-4px; left:1px;border:0 0 0 0;"/></a></li>
     </ul>
   </div>
   <div id="content">
