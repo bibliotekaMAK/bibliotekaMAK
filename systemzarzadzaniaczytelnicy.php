@@ -7,7 +7,8 @@ session_start();
 Tytu³ ; Biblioteczka MAK - System zarz±dzania - Biblioteka
 Opis  ; Strona, na ktorej pracownicy zajmuja sie obsluga i zarzadzaniem baza czytelnikow.
 Dostepna dopiero po zalogowaniu do systemu.
-Zawiera moduly: Dodaj czytelnika, skasuj czytelnika, edytuj czytelnika, a takze szukaj czytelnika.			
+Zawiera moduly: Dodaj czytelnika, skasuj czytelnika, edytuj czytelnika, szukaj czytelnika,
+a takze drukuj karte biblioteczna.			
 Data  ; Marzec 2011
 Autor ; Mariusz P., Agnieszka S., Krzysztof P.
 -->
@@ -20,13 +21,13 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
   <link href="default.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<?php include("plikconfig.php");?>
+  <?php include("plikconfig.php");?>
   <noscript>
     <p class="noscriptText"><b>Koniecznie w³±cz obs³ugê JavaScript.</b><a href="http://www.kropleinternetu,biz/obslugajava.php" title="W³±czenie ods³ugi JavaScript w przegl±darkach internetowych." target="_blank" style="text-decoration:blink;"><b>Kliknij i sprawd¼ jak to zrobiæ&nbsp;&nbsp;&raquo;</b></a></p>
   </noscript>
   <?php	
-if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:center;\"><h2>Nie masz dostêpu do tej czê¶ci witryny.</h2> <a href='systemzarzadzania.php'>Zaloguj siê</a><p>lub<br/><a href='index.php'>Przejd¼ do wyszukiwarki ksi±¿ek</a></p></div>;"; exit();}
-?>
+  if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:center;\"><h2>Nie masz dostêpu do tej czê¶ci witryny.</h2> <a href='systemzarzadzania.php'>Zaloguj siê</a><p>lub<br/><a href='index.php'>Przejd¼ do wyszukiwarki ksi±¿ek</a></p></div>;"; exit();}
+  ?>
   <div id="header"><b>System zarz±dzania bdMAK</b>- Biblioteka Miejska nr.3 Czêstochowa
     <h1>Zalogowany</h1>
     <h2><a href="systemzarzadzania.php?wyloguj=tak">wyloguj siê</a></h2>
@@ -38,62 +39,24 @@ if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:cen
       <li><a href="systemzarzadzaniawypozyczenia.php">Wypo¿yczenia</a></li>
       <li><a href="systemzarzadzaniaraporty.php">Raporty</a></li>
       <li><a href="index.php">WWW</a></li>
+		<li><a href="help.php" target="_blank" onclick="window.open('help.php', 'Pomoc', 'scrollbars,height=550,width=810');return false;"><img src="images/help.png" alt="Pomoc" title="Pomoc" style="position:relative; top:-4px; left:1px;border:0 0 0 0;"/></a></li>
     </ul>
   </div>
   <div id="content">
-    <div id="columnA">
-	 <?php // Odczyt z bazy danych sk³ada siê z przy³±czenia siê do MySQL,
-       // wybrania bazy danych, zadania pytania SQL i przetworzenia wyników.
- 
- $link = mysql_connect ("$dbhost", "$dblogi", "$dbpass") or 
- die ("Nie mo¿na po³±czyæ siê z MySQL");
- mysql_select_db ("$dbname") or 
- die ("Nie mo¿na po³±czyæ siê z baz± biblioteki");
- ?>
+    <div id="columnA"><?php // Odczyt z bazy danych sk³ada siê z przy³±czenia siê do MySQL,
+      // wybrania bazy danych, zadania pytania SQL i przetworzenia wyników.
+      
+      $link = mysql_connect ("$dbhost", "$dblogi", "$dbpass") or 
+      die ("Nie mo¿na po³±czyæ siê z MySQL");
+      mysql_select_db ("$dbname") or 
+      die ("Nie mo¿na po³±czyæ siê z baz± biblioteki");
+      ?>
       <h2>Czytelnicy</h2>
       <p>
-      <form method="post">
-        Poprawa rekordu:
-        <input type="hidden" name="co" value="popraw" />
-        <input type="hidden" name="id_czytelnik" value="1" />
-        <table>
-        <tr>
-          <td>Imiê:</td>
-          <td>
-          <input type="text" name="imie" value="MARIUSZ" /></td>
-        </tr>
-        <tr>
-          <td>Nazwisko:</td>
-          <td>
-          <input type="text" name='nazwisko"value="PURGAL' /></td>
-        </tr>
-        <tr>
-          <td>Kod pocztowy:</td>
-          <td>
-          <input type='text"name="kod_pocztowy' value="56-135" /></td>
-        </tr>
-        <tr>
-          <td>Miasto:</td>
-          <td>
-          <input type="text" name="miasto" value="CZESTOCHOWA" /></td>
-        </tr>
-        <tr>
-          <td>Adres:</td>
-          <td>
-          <input type="text" name='adres"value="PILSUDZKIEGO 6' /></td>
-        </tr>
-        <tr>
-          <td>E-mail:</td>
-          <td>
-          <input type='text"name="email' value="RAFAMP@COMLI.COM" /></td>
-        </tr>
-        </table>
-        <input type="submit" value="Popraw" />
-      </form>
       <form method="post" action="">
         <hr style="border:1px solid #274690;" />
         Szukaj:
-        <input type="text" name="fraza" value="marIUSZ">
+        <input type="text" name="fraza" value="mar">
         <input type="submit" value="Szukaj" /><a href="systemzarzadzaniaczytelnicy.php">Powrót do wyszukiwarki czytelników</a>
         <hr style="border:1px solid #274690;" />
       </form>
@@ -108,6 +71,18 @@ if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:cen
         <td><b>E-mail</b></td>
       </tr>
       <tr>
+        <td>4</td>
+        <td>KOWALSKI</td>
+        <td>MARCIN</td>
+        <td>35-200</td>
+        <td>OPOLE</td>
+        <td>DAMROTA 12</td>
+        <td>MARKO@GMAIL.COM</td>
+        <td><a href="systemzarzadzaniaczytelnicy.php?co=skasuj&amp;id_czytelnik=4" style="color: red;">kasuj</a></td>
+        <td><a href="systemzarzadzaniaczytelnicy.php?co=edytuj&amp;id_czytelnik=4" style="color: green;">edytuj</a></td>
+        <td><a href="kartabiblioteczna.php?co=drukujkarte&amp;id_czytelnik=4" style="color: #9F009F;" target="_blank">KARTA</a></td>
+      </tr>
+      <tr>
         <td>1</td>
         <td>PURGAL</td>
         <td>MARIUSZ</td>
@@ -117,6 +92,7 @@ if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:cen
         <td>RAFAMP@COMLI.COM</td>
         <td><a href="systemzarzadzaniaczytelnicy.php?co=skasuj&amp;id_czytelnik=1" style="color: red;">kasuj</a></td>
         <td><a href="systemzarzadzaniaczytelnicy.php?co=edytuj&amp;id_czytelnik=1" style="color: green;">edytuj</a></td>
+        <td><a href="kartabiblioteczna.php?co=drukujkarte&amp;id_czytelnik=1" style="color: #9F009F;" target="_blank">KARTA</a></td>
       </tr>
       </table>
       </p>
@@ -125,7 +101,7 @@ if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:cen
       <h2>Dodawanie czytelnika</h2>
       <p>
       <form method="post">
-        Nowy rekord:
+        <span style="color: #FF4040;">Wype³nij wszystkie pola.</span>
         <input type="hidden" name="co" value="dodaj" />
         <table>
         <tr>
@@ -163,7 +139,7 @@ if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:cen
       </form>
       </p>
       <h2>Ilo¶æ czytelników w bazie</h2>
-      <h2>12 os.</h2>
+      <h2>14 os.</h2>
     </div>
     <div style="clear: both;">&nbsp;</div>
   </div>
