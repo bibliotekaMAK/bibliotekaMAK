@@ -1,0 +1,126 @@
+/** BASIC */
+
+body {
+	margin: 0px 0px 0px 0px;
+	background: #EDEDFF;
+  /*	background-image: url(images/0008d-background.jpg);*/
+	text-align: justify;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #274690;
+}
+
+
+h1 {
+	display:none;
+}
+h2, h3, h4, h5, h6 {
+	display:none;
+}
+
+ul {
+	display:none;
+}
+
+a {
+	display:none;
+}
+
+a:hover {
+	display:none;
+}
+
+/** HEADER */
+
+#header {
+	display:none;
+}
+
+#header h1 {
+ display:none;
+}
+
+#header h2 {
+	display:none;
+}
+
+/** MENU */
+
+#menu {
+  display:none;
+}
+
+#menu ul {
+  display:none;
+}
+
+#menu li {
+display:none;
+}
+
+#menu a {
+	display:none;
+}
+
+#menu a:hover {
+	color: #BDBDFF;
+}
+
+#menu .first a {
+	display:none;
+}
+
+/** CONTENT */
+
+#content {
+  display:none;
+}
+/*#content input {
+text-transform: uppercase;
+}*/
+
+#columnA {
+	display:none;
+}
+#columnA table tr {
+ display:none;
+ }
+ 
+#columnA td{
+display:none;
+} 
+ 
+#columnB {
+  display:none;
+}
+
+#columnB h2 {
+	display:none;
+}
+
+
+ 
+.columnC table{
+display:none;
+} 
+
+.columnC td{
+display:none;
+} 
+
+/** FOOTER */
+
+#footer {
+	display:none;
+}
+
+#footer p {
+  display:none;
+}
+
+.noscriptText{
+font-size:14px;
+text-align:center;
+color:#FF3737;
+border:1px solid #FFAB8E;
+}
