@@ -1,10 +1,14 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--
 Tytu³ ; Biblioteczka MAK - System zarz±dzania - Biblioteka
-Opis  ; Strona g³ówna dostêpna dla internautów, na której ka¿dy mo¿e przejrzeæ
+Opis  ; Strona g³ówna dostêpna dla pracownikow, na której ka¿dy mo¿e przejrzeæ
        zawarto¶æ bazy, korzystaj±c z wyszukiwarki. Jest tutaj te¿ informacja
-       o nowo¶ciach, a tak¿e ilo¶æ ksi±¿ek w bazie.	
+       o nowo¶ciach, a tak¿e ilo¶æ ksi±¿ek w bazie, a takze przejscie do 
+		 dzialu wypozyczen.	
 Data  ; Marzec 2011
 Autor ; Mariusz P., Agnieszka S., Krzysztof P.
 -->
@@ -21,13 +25,18 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
   <noscript>
     <p class="noscriptText"><b>Koniecznie w³±cz obs³ugê JavaScript.</b><a href="http://www.kropleinternetu,biz/obslugajava.php" title="W³±czenie ods³ugi JavaScript w przegl±darkach internetowych." target="_blank" style="text-decoration:blink;"><b>Kliknij i sprawd¼ jak to zrobiæ&nbsp;&nbsp;&raquo;</b></a></p>
   </noscript>
+  <?php		
+  if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:center;\"><h2>Nie masz dostêpu do tej czê¶ci witryny.</h2> <a href='systemzarzadzania.php'>Zaloguj siê</a><p>lub<br/><a href='index.php'>Przejd¼ do wyszukiwarki ksi±¿ek</a></p></div>;"; exit();}
+  ?>
   <div id="header"><b>System zarz±dzania bdMAK</b>
     <h1 style="text-transform:none;">Biblioteka Miejska nr.3 w Demo</h1>
     <h2>zapraszamy</h2>
   </div>
   <div id="menu">
-    &nbsp;
-  </div>
+<ul>
+<li class="first"><a href="systemzarzadzaniaksiazki.php">Wypo¿yczalnia</a></li>
+</ul>
+</div>
   <div id="content">
     <div id="columnA">
  <?php // Odczyt z bazy danych sk³ada siê z przy³±czenia siê do MySQL,
