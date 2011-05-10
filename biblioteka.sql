@@ -23,7 +23,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Baza danych: `biblioteka`
 --
 
--- ------------------------------------------------------
+-- --------------------------------------------------------
 
 --
 -- Struktura tabeli dla  `czytelnik`
