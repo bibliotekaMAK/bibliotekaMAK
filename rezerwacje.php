@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+<?php include("plikkonfigbaza.php");?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--
@@ -20,6 +24,9 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
 <noscript>
 <p class="noscriptText"><b>Koniecznie w³±cz obs³ugê JavaScript.</b><a href="http://www.kropleinternetu,biz/obslugajava.php" title="W³±czenie ods³ugi JavaScript w przegl±darkach internetowych." target="_blank" style="text-decoration:blink;"><b> Kliknij i sprawd¼ jak to zrobiæ&nbsp;&nbsp;&raquo;</b></a></p>
 </noscript>
+<?php
+if($_SESSION["zalogowany"]==0){echo "<div style=\"font-size:14px; text-align:center;\"><h2>Nie masz dostêpu do tej czê¶ci witryny.</h2> <a href='systemzarzadzania.php'>Zaloguj siê</a><p>lub<br/><a href='index.php'>Przejd¼ do wyszukiwarki ksi±¿ek</a></p></div>;"; exit();}
+?>
 <div id="header"><b>System zarz±dzania bdMAK</b>- Biblioteka Miejska nr.3 Czêstochowa
 <h1>Zalogowany</h1>
 <h2><a href="systemzarzadzania.php?wyloguj=tak">wyloguj siê</a></h2>
@@ -37,6 +44,7 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
 </div>
 <div id="content">
 <div id="columnA">
+<h3>Rezerwacje przeterminowane - <span style="color: #ff0000;">sztuk 1</span></h3><a href="zwrot_rezerwacji.php" title="Kliknij aby zwróciæ przeterminowane rezerwacje" style="color:red;float:right;">Usuñ przeterminowane rezerwacje</a>
 <h1>Rezerwacje ksi±¿ek</h1><a href="javascript:history.back()" style="color:orange;float:right;"><b>kliknij aby wróciæ &raquo;</b></a></a>
 <h2>Wyszukaj rezerwacjê</h2>
 <p><form method="post" action=""><hr style="border:1px solid #274690;"/><table><tr><td>Wpisz <b>Kod</b> karty:</td><td> <input type="text" name="fraza" style="background-color:#FFC9C9;border:1px solid #FFA4A4" value=150520122></td></tr></table><input type="submit" value="Szukaj"/><hr style="border:1px solid #274690;"/></form><strong>Rezerwacja na:</strong><br><table cellpadding="5"><tr><td><b>Id rezer.</b></td><td><b>IP komputera</b></td><td><b>ID czytelnika</b></td><td><b>ISBN ksi±¿ki</b></td><td><b>Data rezerwacji</b></td><td><b>Kod karty</b></td><td><b>Nazwisko</b></td></tr>
