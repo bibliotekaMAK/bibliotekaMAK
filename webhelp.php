@@ -21,8 +21,24 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
 <h1>Pomoc</h1>
 <br/>
 <h3>1. Wyszukiwanie ksi±¿ek</h3>
-<p>&nbsp;</p>
-<h3>2. Rezerwacja</h3>
-<p>&nbsp;</p>
+<p>
+Aby wyszukaæ ksi±¿kê nale¿y:
+<ol>
+<li>Wpisaæ szukan± frazê (tytu³, autor, nr isbn lub rok wydania) w pole wyszukiwania</li>
+<li>Klikn±æ Szukaj<br />Pod oknem wyszukiwania zobaczymy tabelê z wynikami wyszukiwania</li>
+</ol>
+</p>
+<h3>2. Rezerwacja</h3><span style="color: #ff0000">Tylko dla Czytelników</span>
+<p>
+Aby zarezerwowaæ ksi±¿kê nale¿y:
+<ol>
+<li>Wyszukaæ ksi±¿kê w wyszukiwarce</li>
+<li>Klikn±æ znacznik <b>R</b> na koñcu interesuj±cej nas pozycji</li>
+<li>Po otwarciu siê nowego okna nale¿y dok³adnie wype³niæ formularz<br /><span style="color: #ff0000;">Potrzebna bêdzie Karta Biblioteczna</span></li>
+<li>Po wype³nieniu formularza klikn±æ Zarezerwuj</li>
+<li>W razie wyst±pienia b³êdów nale¿y poprawiæ wskazane pola</li>
+</ol>
+<span style="color: #ff0000;">Zarezerwowaæ mo¿na tylko 1(jedn±) ksi±¿kê na dzieñ.<br />Po odbiór nale¿y siê zg³osiæ w dniu rezerwacji wraz z Kart± Biblioteczn±.</span>
+</p>
 </body>
 </html>
