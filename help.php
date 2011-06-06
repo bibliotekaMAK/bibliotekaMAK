@@ -86,53 +86,85 @@ Autor ; Mariusz P., Agnieszka S., Krzysztof P.
     <li><a href="#pyt8"><span style="color: #ff0000">B³êdy i ich najczêstsze przyczyny</span></a></li>
   </ol>
   <br /> <a name="pyt1"></a>
-  <h3>1. Dzia³ "KSI¡¯KI"</h3>
-  <p><img src="images/ksiazki.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 41857 bajtów]" title="Dzia³ KSI¡¯KI"></p>
-  <p style="font-weight:bold;font-size:16px;color:#C06000;">-- Dodanie nowej ksi±¿ki do bazy<br />
-  <br />
-  </p>
-  <p><img src="images/dodksiazki.jpg" width="268" height="339" border="0" alt="[Rozmiar: 24843 bajtów]" title="Dodanie nowej ksi±¿ki do bazy"></p>
-  <p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wyszukanie ksi±¿ki w bazie<br />
-  <br />
-  </p>
-  <p><img src="images/wyszksiazki.jpg" width="60%" height="60%" border="0" alt="[Rozmiar: 22032 bajtów]" title="Wyszukanie ksi±¿ki w bazie"></p>
-  <p style="font-weight:bold;font-size:16px;color:#C06000;">-- Edycja opisu ksi±¿ki<br />
-  <br />
-  </p>
-  <p><img src="images/edtksiazki.jpg" width="302" height="351" border="0" alt="[Rozmiar: 25294 bajtów]" title="Edycja opisu ksi±¿ki"></p>
-  <p style="font-weight:bold;font-size:16px;color:#C06000;">-- Kasowanie ksi±¿ki z bazy<br />
-  <br />
-  </p>
-  <img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry" />&nbsp;<a href="#pyt0">Powrót do góry</a> <a name="pyt2"></a>
-  <h3>2. Dzia³ "CZYTELNICY"</h3>
-  <p>Nie. Zarz±dzanie stron± sprowadza siê do uzupe³niania tre¶ci w podobny sposób, jak w edytorze tekstów. Oferujemy nasz± pomoc podczas wstawiania tre¶ci w czasie codziennego dzia³ania strony (dotyczy Pakietu Standard przez pierwszy miesi±c). Nasze dzia³ania skierowane s± na Pañstwa sukces.</p>
-  <img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry" />&nbsp;<a href="#pyt0">Powrót do góry</a> <a name="pyt3"></a>
-  <h3>3. Dzia³ "WYPO¯YCZALNIA"</h3>
-  <p>Tak. Do tego s³u¿y formularz zamówienia. Uzupe³nienie tre¶ci na stronie zostanie wykonane przez nas zgodnie z regulaminem. Dziêki temu strona od samego pocz±tku prowadzona jest w pe³ni profesjonalnie.<br />
-  Po uzupe³nieniu tre¶ci przedstawiamy szereg wskazówek, które pozwol± utrzymaæ wysok± jako¶æ prezentowanych tre¶ci.</p>
-  <img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry" />&nbsp;<a href="#pyt0">Powrót do góry</a> <a name="pyt4"></a>
-  <h3>&nbsp;&nbsp;3.1. Przej¶cie do Dzia³u "WYPO¯YCZANIE KSI¡¯EK"</h3>
-  <p></p>
-  <img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry" />&nbsp;<a href="#pyt0">Powrót do góry</a> <a name="pyt5"></a>
-  <h3>&nbsp;&nbsp;3.2 Przejcie do dzia³u "ZWROT KSI¡¯EK"</h3>
-  <p><a href="http://validator.w3.org/check?uri=referer" target="_blank">Wykonane przez nas strony s± technicznie oraz semantycznie zgodne ze standardami w3c</a> (html 4.01 Transitional, xhtml 1.0 strict).<br />
-  Powoduje to i¿ z du¿ym prawdopodobieñstwem bêd± dobrze zaindeksowane przez wyszukiwarki.<br />
-  To, czy bêd± pojawiaæ siê na szczycie zale¿y od konkurencyjno¶ci s³ów. Przy niszowych bran¿ach z pewno¶ci± tak. Je¶li pragn± Pañstwo aby strona pojawia³a siê na wysokich miejscach wyników wyszukiwania zachêcamy do wykupienia Pakietu Profesjonalnego z ofert± pozycjonowania stron.</p>
-  <img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry" />&nbsp;<a href="#pyt0">Powrót do góry</a> <a name="pyt6"></a>
-  <h3>4. Dzia³ "RAPORTY"</h3>
-  <p><a href="http://validator.w3.org/check?uri=referer" target="_blank">Wykonane przez nas strony s± technicznie oraz semantycznie zgodne ze standardami w3c</a> (html 4.01 Transitional, xhtml 1.0 strict).<br />
-  Powoduje to i¿ z du¿ym prawdopodobieñstwem bêd± dobrze zaindeksowane przez wyszukiwarki.<br />
-  To, czy bêd± pojawiaæ siê na szczycie zale¿y od konkurencyjno¶ci s³ów. Przy niszowych bran¿ach z pewno¶ci± tak. Je¶li pragn± Pañstwo aby strona pojawia³a siê na wysokich miejscach wyników wyszukiwania zachêcamy do wykupienia Pakietu Profesjonalnego z ofert± pozycjonowania stron.</p>
-  <img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry" />&nbsp;<a href="#pyt0">Powrót do góry</a> <a name="pyt7"></a>
-  <h3>5. Dzia³ "WWW"</h3>
-  <p><a href="http://validator.w3.org/check?uri=referer" target="_blank">Wykonane przez nas strony s± technicznie oraz semantycznie zgodne ze standardami w3c</a> (html 4.01 Transitional, xhtml 1.0 strict).<br />
-  Powoduje to i¿ z du¿ym prawdopodobieñstwem bêd± dobrze zaindeksowane przez wyszukiwarki.<br />
-  To, czy bêd± pojawiaæ siê na szczycie zale¿y od konkurencyjno¶ci s³ów. Przy niszowych bran¿ach z pewno¶ci± tak. Je¶li pragn± Pañstwo aby strona pojawia³a siê na wysokich miejscach wyników wyszukiwania zachêcamy do wykupienia Pakietu Profesjonalnego z ofert± pozycjonowania stron.</p>
-  <img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry" />&nbsp;<a href="#pyt0">Powrót do góry</a> <a name="pyt8"></a>
-  <h3>6.<span style="color: #ff0000">B³êdy i ich najczêstsze przyczyny</span></h3>
-  <p><a href="http://validator.w3.org/check?uri=referer" target="_blank">Wykonane przez nas strony s± technicznie oraz semantycznie zgodne ze standardami w3c</a> (html 4.01 Transitional, xhtml 1.0 strict).<br />
-  Powoduje to i¿ z du¿ym prawdopodobieñstwem bêd± dobrze zaindeksowane przez wyszukiwarki.<br />
-  To, czy bêd± pojawiaæ siê na szczycie zale¿y od konkurencyjno¶ci s³ów. Przy niszowych bran¿ach z pewno¶ci± tak. Je¶li pragn± Pañstwo aby strona pojawia³a siê na wysokich miejscach wyników wyszukiwania zachêcamy do wykupienia Pakietu Profesjonalnego z ofert± pozycjonowania stron.</p>
-  <img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry" />&nbsp;<a href="#pyt0">Powrót do góry</a>
+<h3>1. Dzia³ "KSI¡¯KI"</h3>
+<p><img src="images/ksiazki.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 41857 bajtów]" title="Dzia³ KSI¡¯KI"></p><p style="font-weight:bold;font-size:16px;color:#C06000;">-- Dodanie nowej ksi±¿ki do bazy<br/><br/></p>
+<p><img src="images/dodksiazki.jpg" width="268" height="339" border="0" alt="[Rozmiar: 24843 bajtów]" title="Dodanie nowej ksi±¿ki do bazy"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wyszukanie ksi±¿ki w bazie<br/><br/></p>
+<p><img src="images/wyszksiazki.jpg" width="60%" height="60%" border="0" alt="[Rozmiar: 22032 bajtów]" title="Wyszukanie ksi±¿ki w bazie"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Edycja opisu ksi±¿ki<br/><br/></p>
+<p><img src="images/edtksiazki.jpg" width="302" height="351" border="0" alt="[Rozmiar: 25294 bajtów]" title="Edycja opisu ksi±¿ki"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Kasowanie ksi±¿ki z bazy<br/><br/></p>
+
+<img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry"/>&nbsp;<a href="#pyt0">Powrót do góry</a>
+<a name="pyt2"></a>
+<h3>2. Dzia³ "CZYTELNICY"</h3>
+<p><img src="images/czytelnicy.jpg" width="80%" height="80%" border="0" alt="Dzia³ CZYTELNICY" title="Dzia³ CZYTELNICY"></p><p style="font-weight:bold;font-size:16px;color:#C06000;">-- Dodanie nowego czytelnika do bazy<br/><br/></p>
+<p><img src="images/dodczytelnika.jpg" width="242" height="341" border="0" alt="[Rozmiar: 24918 bajtów]" title="Dodanie nowego czytelnika do bazy"></p><p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wyszukanie czytelnika w bazie<br/><br/></p>
+<p><img src="images/wyszczytelnika.jpg" width="603" height="143" border="0" alt="[Rozmiar: 24856 bajtów]" title="Wyszukanie czytelnika w bazie"></p><p style="font-weight:bold;font-size:16px;color:#C06000;">-- Edycja opisu czytelnika, zmiana danych<br/><br/></p>
+<p><img src="images/edtczytelnika.jpg" width="327" height="350" border="0" alt="[Rozmiar: 26533 bajtów]" title="Edycja opisu czytelnika, zmiana danych"></p><p style="font-weight:bold;font-size:16px;color:#C06000;">-- Kasowanie czytelnika z bazy<br/><br/></p>
+<p><img src="images/wyszczytelnika.jpg" width="603" height="143" border="0" alt="[Rozmiar: 24856 bajtów]" title="Kasowanie czytelnika z bazy"></p><p style="font-weight:bold;font-size:16px;color:#C06000;">-- Drukowanie Karty bibliotecznej<br/><br/></p>
+<p><img src="images/kartabiblio.jpg" width="563" height="64" border="0" alt="[Rozmiar: 15523 bajtów]" title="Drukowanie Karty bibliotecznej"></p><p><img src="images/kartabiblio2.jpg" width="351" height="308" border="0" alt="[Rozmiar: 28698 bajtów]" title="Drukowanie Karty bibliotecznej"></p>
+<img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry"/>&nbsp;<a href="#pyt0">Powrót do góry</a>
+<a name="pyt3"></a>
+<h3>3. Dzia³ "WYPO¯YCZALNIA"</h3>
+<p><img src="images/wyborwypozyczalnia.jpg" width="345" height="245" border="0" alt="[Rozmiar: 18519 bajtów]" title="WYPO¯YCZALNIA"></p>
+<img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry"/>&nbsp;<a href="#pyt0">Powrót do góry</a>
+<a name="pyt4"></a>
+<h3>&nbsp;&nbsp;3.1. Przej¶cie do Dzia³u "WYPO¯YCZANIE KSI¡¯EK"</h3>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wybór czytelnika<br/><br/></p>
+<p><img src="images/wypozksiazek.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 30997 bajtów]"></p><p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wybór ksi±¿ki<br/><br/></p>
+<p><img src="images/wypozyczenieksiazki.jpg" width="469" height="110" border="0" alt="[Rozmiar: 18423 bajtów]" title="Wybór czytelnika"></p><p style="font-weight:bold;font-size:16px;color:#C06000;">-- Potwierdzenie wyboru<br/><br/></p><p><img src="images/wypozyczenieksiazki.jpg" width="469" height="110" border="0" alt="[Rozmiar: 18423 bajtów]" title="Wybór czytelnika"></p><p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wypo¿yczenie ksi±¿ki<br/><br/></p>
+<img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry"/>&nbsp;<a href="#pyt0">Powrót do góry</a>
+<a name="pyt5"></a>
+<h3>&nbsp;&nbsp;3.2 Przejcie do dzia³u "ZWROT KSI¡¯EK"</h3>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Zwrot ksi±¿ki<br/><br/></p>
+<p><img src="images/zwrotksiazki.jpg" width="695" height="217" border="0" alt="[Rozmiar: 22141 bajtów]" title="Zwrot ksi±¿ek"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wybór czytelnika<br/><br/></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wyszukanie ksi±¿ek wypo¿yczonych przez czytelnika<br/><br/></p>
+<p><img src="images/zwrotwyszukanie.jpg" width="574" height="262" border="0" alt="[Rozmiar: 33030 bajtów]" title="Zwrot wyszukanie"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Potwierdzenie zwrotu<br/><br/></p>
+<p><img src="images/zwrotpotwierdz.jpg" width="181" height="205" border="0" alt="[Rozmiar: 14668 bajtów]" title="Zwrot potwierdzenie"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Przed³u¿enie okresu wypo¿yczenia<br/><br/></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Potwierdzenie przed³u¿enia<br/><br/></p>
+<p><img src="images/zwrotprzedluz.jpg" width="174" height="218" border="0" alt="[Rozmiar: 14904 bajtów]" title="Zwrot przed³u¿enie"></p>
+<img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry"/>&nbsp;<a href="#pyt0">Powrót do góry</a>
+<a name="pyt6"></a>
+<h3>4. Dzia³ "REZERWACJE"</h3>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wyszukanie rezerwacji<br/><br/></p>
+<p><img src="images/rezerwksiazki.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 54954 bajtów]" title="Wyszukanie zarezerwowanej ksi±¿ki"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wypo¿yczenie zarezerwowanej ksi±¿ki<br/><br/></p>
+<p><img src="images/rezerwksiazkiwypozycz.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 54954 bajtów]" title="Wypo¿yczenie zarezerwowanej ksi±¿ki"></p>
+<img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry"/>&nbsp;<a href="#pyt0">Powrót do góry</a>
+<a name="pyt7"></a>
+<h3>5. Dzia³ "RAPORTY"</h3>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Wybór raportu<br/><br/></p>
+<p><img src="images/dzialraporty.jpg" width="469" height="218" border="0" alt="[Rozmiar: 22463 bajtów]" title="Raporty"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Raport ksi±¿ek<br/><br/></p>
+<p><img src="images/raportksiazek.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 51893 bajtów]" title="Raport ksi±¿ek"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Raport czytelników<br/><br/></p>
+<p><img src="images/raportczytelnikow.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 58368 bajtów]" title="Raport czytelników"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Raport ksi±¿ek wypo¿yczonych<br/><br/></p>
+<p><img src="images/raportksiwypozycz.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 54937 bajtów]" title="Raport ksi±¿ek wypo¿yczonych"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Raport ksi±¿ek przeterminowanych<br/><br/></p>
+<p><img src="images/raportksiprzeter.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 42414 bajtów]" title="Raport ksi±¿ek przeterminowanych"></p>
+<p><img src="images/mailprzypomn.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 30539 bajtów]" title="Raport ksi±¿ek przeterminowanych - mail z przypomnieniem"></p>
+<p style="font-weight:bold;font-size:16px;color:#C06000;">-- Raport ksi±¿ek ze stanem 0<br/><br/></p>
+<p><img src="images/raport0.jpg" width="90%" height="90%" border="0" alt="[Rozmiar: 25995 bajtów]" title="Raport ksi±¿ek ze stanem 0"></p>
+
+<p></p>
+<img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry"/>&nbsp;<a href="#pyt0">Powrót do góry</a>
+<a name="pyt8"></a>
+<h3>6. Dzia³ "WWW"</h3>
+<p><img src="images/www.jpg" width="80%" height="80%" border="0" alt="[Rozmiar: 76013 bajtów]" title="Dzia³ WWW"></p>
+<img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry"/>&nbsp;<a href="#pyt0">Powrót do góry</a>
+<a name="pyt9"></a>
+<h3>7. <span style="color: #ff0000">B³êdy i ich najczêstsze przyczyny</span></h3>
+<p><span style="color:red;font-weight:bold;">Nie zosta³y wype³nione wszystkie pola!</span> - Nale¿y dok³adnie wype³niæ wszystkie pola formularza</p>
+<p><span style="color:red;font-weight:bold;">Nie mo¿na po³±czyæ siê z baz± biblioteki</span> - B³±d sieci</p>
+<p><span style="color:red;font-weight:bold;">b³±d w pytaniu</span> - B³êdnie zadane pytanie do bazy danych</p>
+<p><span style="color:red;font-weight:bold;">Nie mo¿na po³±czyæ siê z MySQL</span> - B³±d sieci - awaria.</p>
+<p><span style="color:red;font-weight:bold;">Nie dodano nowego czytelnika!</span> - ¬le wype³nione pola formularza</p>
+<img src="images/nav_up_blue.png" width="18" height="18" alt="Do góry"/>&nbsp;<a href="#pyt0">Powrót do góry</a>
+
 </body>
 </html>
